@@ -1,0 +1,45 @@
+/* *{
+    outline:1px solid red;
+} */
+body{
+    background-color:aquamarine;
+}
+/* .saka{
+    display: flex;
+    justify-content: center;
+} */
+.saka img{
+    height: 400px;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+#saka {
+    bottom: 30%;
+    position: absolute;
+    animation: linear infinite alternate;
+    animation-name: run;
+    animation-duration: 5s;
+  }
+p{
+    text-align: center;
+    padding-top: 35%;
+    font-family: 'Castoro', serif;
+    font-family: 'Castoro Titling', cursive;
+    font-family: 'Darumadrop One', cursive;
+    font-size: 40px;
+}
+  @keyframes run {
+    0% {
+      left: 0;
+      right:0;
+    }
+    50% {
+      left: 0;
+      right:0;
+    }
+    100% {
+      left: 0;
+      right:0;
+      transform: scaleX(-1);
+    }
+  }
